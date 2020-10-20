@@ -1,0 +1,12 @@
+<?xml  version="1.0"  encoding="UTF-8"  ?>
+
+<!ELEMENT relación (persona+)>
+
+<!ELEMENT persona (sexo?,carnet,nombre,email+,parentesco?)>
+
+<!ATTLIST persona sexo (#PCDATA)>
+<!ATTLIST persona carnet (#PCDATA)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT parentesco (#PCDATA)>

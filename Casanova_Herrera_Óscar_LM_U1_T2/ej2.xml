@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro SYSTEM "ej2.dtd">
+
+<Libro>
+    <Libro Catalogo=12-02-2019>
+        <Titulo>Lenguaje de marcas</Titulo>
+        <Seccion>2</Seccion>
+        <Subseccion>3</Subseccion>
+        <Contenido>
+
+                 <Capitulo>
+
+                    <Tema>Informática y enseñanza</Tema>
+
+                </Capitulo>
+
+                <Capitulo materia=XHTML>
+                    <Tema>XML </Tema>
+                    <Separacion/>
+                    <Copyright>Copyright disclaimed...</Copyright>
+
+                </Capitulo>
+
+
+        </Contenido>
+
+    </Libro>
+</Libro>

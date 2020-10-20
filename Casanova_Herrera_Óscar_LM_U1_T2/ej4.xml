@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<shipoder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ej4.xsd">
+    <orderperson></orderperson>
+    <shipto>
+        <name>PAco Pipas</name>
+        <adress>Conde de barcelona nº2</adress>
+        <city>Sevilla</city>
+        <country>Spain</country>
+    </shipto>
+    <item>
+        <title>Umbrella</title>
+        <note></note>
+        <quantity>1</quantity>
+        <price>6,50</price>
+    </item>
+    <item>
+        <title>Umbrella</title>
+        <note></note>
+        <quantity>5</quantity>
+        <price>6,50</price>
+
+    </item>
+    <item>
+        <title>Ball</title>
+        <note></note>
+        <quantity>1</quantity>
+        <price>12,3</price>
+    </item>
+    <orderid> blablabla</orderid>
+    <shipoder/>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault ="qualified">
+
+    <xs:element name=relacion>
+<xs:complexType>
+<xs:sequence>
+</xs:sequence>
+<xs:element name="persona" type="xs:string">
+        <xs:attribute name="sexo" type="xs:string"/>
+        <xs:attribute name="carnet" type="xs:string">
+            <sx:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:pattern value="[0-9] {4} [A-Z]"></xs:pattern>
+                </xs:restriction>
+            </sx:simpleType>
+
+
+            <xs:attribute/>
+        </xs:element>
+        <complexType>
+            <xs:sequence>
+                <xs:element name="nombre" type="xs:string">
+                    <xs:element name="email" type="xs:string">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:sting">
+
+                                <xs:maxLenght value="250"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                        <xs:element name="parentesco" type="xs:string">
+                            <sx:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:ennumeration value="Hijo"/>
+                                    <xs:ennumeration value="Hija"/>
+                                    <xs:ennumeration value="Padre"/>
+                                    <xs:ennumeration value="Madre"/>
+                                    <xs:ennumeration value="Otro"/>
+                                </xs:restriction>
+                            </sx:simpleType>
+                        </xs:sequence>
+                    </complexType>
+
+
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>  
